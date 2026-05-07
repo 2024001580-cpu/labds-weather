@@ -8,7 +8,7 @@ public class WeatherHandler {
 
     public WeatherHandler() {    }
 
-    public void createWeatherHandler(HttpServer server) {
+    public void create(HttpServer server) {
         String basePath = "/weather";
 
         // TODO: alterar e criar métodos

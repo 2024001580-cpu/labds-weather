@@ -12,7 +12,7 @@ public class Router {
 
     public void createContext(HttpServer server) {
 
-        _helloWorldHandler.createHelloWorldHandler(server);
-        _weatherHandler.createWeatherHandler(server);
+        _helloWorldHandler.create(server);
+        _weatherHandler.create(server);
     }
 }

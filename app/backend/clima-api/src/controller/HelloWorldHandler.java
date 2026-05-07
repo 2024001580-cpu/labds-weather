@@ -8,7 +8,7 @@ public class HelloWorldHandler {
 
     public HelloWorldHandler() {    }
 
-    public void createHelloWorldHandler(HttpServer server) {
+    public void create(HttpServer server) {
         String basePath = "/hello";
 
         server.createContext(basePath, exchange -> {
