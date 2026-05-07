@@ -1,7 +1,5 @@
 import com.sun.net.httpserver.HttpServer;
-
 import controller.Router;
-
 import java.net.InetSocketAddress;
 
 public class Main {
