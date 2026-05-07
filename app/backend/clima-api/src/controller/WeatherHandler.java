@@ -1,7 +1,6 @@
 package controller;
 
 import java.nio.charset.StandardCharsets;
-
 import com.sun.net.httpserver.HttpServer;
 
 public class WeatherHandler {
