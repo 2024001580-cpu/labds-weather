@@ -1,12 +1,11 @@
 package controller;
-import java.nio.charset.StandardCharsets;
 
 import com.sun.net.httpserver.HttpServer;
 
 public class Router {
     
-    // private HttpServer _server;
     private HelloWorldHandler _helloWorldHandler = new HelloWorldHandler();
+    private WeatherHandler _weatherHandler = new WeatherHandler();
 
     public Router() {
     }
@@ -14,6 +13,6 @@ public class Router {
     public void createContext(HttpServer server) {
 
         _helloWorldHandler.createHelloWorldHandler(server);
-
+        _weatherHandler.createWeatherHandler(server);
     }
 }

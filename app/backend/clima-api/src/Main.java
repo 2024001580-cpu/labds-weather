@@ -12,10 +12,8 @@ public class Main {
         
         HttpServer server = HttpServer.create(new InetSocketAddress(8080), 0);
         router.createContext(server);
-        
         server.setExecutor(null);
         server.start();
-        System.out.println("Servidor rodando https://localhost:8080");
+        System.out.println("Servidor rodando em https://localhost:8080");
     }
-
 }
