@@ -37,4 +37,3 @@ curl "http://localhost:8080/geo?city=Porto Alegre"
 
 ### Testando a aplicação
 
-----
