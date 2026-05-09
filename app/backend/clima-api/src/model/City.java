@@ -1,5 +1,7 @@
 package model;
 
+// TODO: passar variáveis para camelCase, conforma padrão do Java
+// TODO: criar métodos
 public class City {
     private String Name;
     private String State;
