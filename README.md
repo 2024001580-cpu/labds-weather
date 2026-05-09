@@ -4,8 +4,6 @@
 
 Aplicação de consulta de dados meteorológicos, usando a OpenWeather API: https://openweathermap.org/api
 
-----
-
 ## Backend
 Desenvolvido em Java.
 
@@ -29,8 +27,6 @@ curl "http://localhost:8080/geo?city=Porto Alegre"
 ```
 
 <img width="1112" height="336" alt="request-geo-api" src="https://github.com/user-attachments/assets/904ccfcd-c65e-4abd-a371-01fd43d8bf58" />
-
-----
 
 ## Frontend
 ### Dependências
