@@ -1,5 +1,3 @@
-# labds-weather
-
 **Laboratório de Desenvolvimento de Software - IFRS Canoas**
 
 Aplicação de consulta de dados meteorológicos, usando a OpenWeather API: https://openweathermap.org/api
