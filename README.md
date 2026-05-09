@@ -1,3 +1,40 @@
 # labds-weather
 
 Laboratório de Desenvolvimento de Software - IFRS Canoas
+
+----
+
+## Backend
+### Dependências
+Baixar .jar e salvar no diretório /lib
+* Gson 2.14.0 https://mvnrepository.com/artifact/com.google.code.gson/gson/2.14.0
+  
+### Configuração de variáveis
+1. Copiar o arquivo `config.properties.example`
+2. Salvar como `config.properties`
+3. Alterar o valor das variáveis necessárias
+
+### Compilando e rodando
+1. Entrar na raíz do projeto.
+2. Executar `.\compile.ps1` no Powershell.
+3. Executar `.\run.ps1` no Powershell.
+
+### Testando a API
+```
+curl "http://localhost:8080/geo?city=Porto Alegre"
+```
+
+<img width="1112" height="336" alt="request-geo-api" src="https://github.com/user-attachments/assets/904ccfcd-c65e-4abd-a371-01fd43d8bf58" />
+
+----
+
+## Frontend
+### Dependências
+
+### Configuração de variáveis
+
+### Compilando e rodando
+
+### Testando a aplicação
+
+----
